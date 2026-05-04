@@ -138,6 +138,7 @@ function App() {
       if (data.graph_data) {
         setGraphData(data.graph_data);
         setHasConversationGraph(true);
+        setGraphError(null);
       }
 
     } catch (err) {

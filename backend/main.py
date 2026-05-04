@@ -7,6 +7,8 @@ from fastapi import FastAPI, UploadFile, File, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from neo4j import GraphDatabase
 from sentence_transformers import SentenceTransformer
+import warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
 import google.generativeai as genai
 from dotenv import load_dotenv
 
@@ -253,8 +255,9 @@ async def describe_image_for_search(image_bytes: bytes, image_extension: str):
         tmp_path = tmp.name
 
     try:
-        gemini_file = await loop.run_in_executor(
-            None, lambda: genai.upload_file(path=tmp_path)
+        gemini_file = await asyncio.wait_for(
+            loop.run_in_executor(None, lambda: genai.upload_file(path=tmp_path)),
+            timeout=GEMINI_TIMEOUT,
         )
     finally:
         os.remove(tmp_path)
@@ -289,8 +292,9 @@ async def transcribe_audio_with_gemini(audio_bytes: bytes, audio_extension: str)
         tmp_path = tmp.name
 
     try:
-        gemini_file = await loop.run_in_executor(
-            None, lambda: genai.upload_file(path=tmp_path)
+        gemini_file = await asyncio.wait_for(
+            loop.run_in_executor(None, lambda: genai.upload_file(path=tmp_path)),
+            timeout=GEMINI_TIMEOUT,
         )
     finally:
         os.remove(tmp_path)
