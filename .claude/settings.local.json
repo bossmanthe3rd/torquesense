@@ -17,7 +17,11 @@
       "Bash(Format-Table -AutoSize)",
       "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Himank Sharma\\\\torquesense\\\\torquesense\" -Filter \".*\" -Force -File)",
       "Bash(Select-Object FullName, Name)",
-      "PowerShell(Get-Content *)"
+      "PowerShell(Get-Content *)",
+      "Bash(python -c ' *)",
+      "Bash(node -e ' *)",
+      "Bash(docker compose *)",
+      "Bash(curl *)"
     ]
   }
 }
