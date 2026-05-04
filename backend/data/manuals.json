@@ -1,0 +1,474 @@
+[
+  {
+    "car": "Ford F-150",
+    "component": "Rod Bearing",
+    "issue": "Engine Knocking",
+    "search_summary": "Rod bearing connecting rod engine internal component knocking banging noise at idle low oil pressure worn metal.",
+    "manual": "Step 1: Drain engine oil completely. Step 2: Remove the oil pan. Step 3: Rotate the crankshaft to access each rod bearing cap. Step 4: Inspect bearing surfaces for scoring, copper exposure, or flaking — replace if clearance exceeds 0.003 inches using plastigage. Step 5: Torque new rod bearing caps to 45 ft-lbs, then turn an additional 90 degrees. Step 6: Reinstall oil pan with fresh RTV and gasket. Step 7: Refill with fresh oil and prime the system before starting. Step 8: Run at idle and listen for knock. If knock persists, crankshaft journals may be damaged and require machining.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Rod+Bearing"
+  },
+  {
+    "car": "Toyota Camry",
+    "component": "Serpentine Belt",
+    "issue": "High Pitched Squeal",
+    "search_summary": "Serpentine drive belt engine accessory belt squealing screeching noise on startup worn cracked ribbed belt.",
+    "manual": "Step 1: Inspect the belt for cracks, fraying, glazing, or missing ribs — replace if any are found. Step 2: Locate the spring-loaded belt tensioner on the front of the engine. Step 3: Use a 14mm breaker bar in the tensioner square drive to rotate it counter-clockwise, releasing belt tension. Step 4: Slip the old belt off. Step 5: Route the new belt around all pulleys per the underhood diagram — leave the tensioner pulley for last. Step 6: Rotate the tensioner back and slip the belt onto it. Step 7: Run the engine and confirm the belt tracks centrally on all pulleys.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Serpentine+Belt"
+  },
+  {
+    "car": "Honda Civic",
+    "component": "O2 Sensor",
+    "issue": "Check Engine Light - Poor Mileage",
+    "search_summary": "Oxygen O2 lambda sensor exhaust manifold check engine light poor fuel economy emissions bung threaded sensor.",
+    "manual": "Step 1: Use an OBD-II scanner to confirm a P0131–P0141 oxygen sensor code and identify which sensor (upstream/downstream, bank 1/bank 2). Step 2: Disconnect the negative battery cable. Step 3: Locate the sensor on the exhaust manifold or downpipe and spray liberally with penetrating oil — allow 15 minutes. Step 4: Use a dedicated O2 sensor socket (slotted for the wire) to loosen counter-clockwise. Step 5: Apply anti-seize to the new sensor threads (not the sensor tip). Step 6: Torque to 33 ft-lbs. Step 7: Reconnect the wiring connector and clear the fault code. Step 8: Drive one full drive cycle and re-scan to confirm the code does not return.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=O2+Sensor"
+  },
+  {
+    "car": "Subaru Outback",
+    "component": "Mass Air Flow (MAF) Sensor",
+    "issue": "Rough Idle and Stalling",
+    "search_summary": "Mass air flow MAF sensor air intake boot dirty fouled rough idle stalling hesitation P0101 code air metering.",
+    "manual": "DIAGNOSTIC: P0101 (MAF out of range) combined with rough idle/stalling strongly indicates a fouled or failed MAF sensor. REPAIR: Step 1: Locate the MAF sensor in the air intake duct between the airbox and throttle body. Step 2: Unplug the wiring harness connector. Step 3: Remove the two Torx screws securing the sensor body. Step 4: Extract the sensor — do not touch the hot-wire sensing element. Step 5: Spray the sensing element liberally with dedicated MAF cleaner (not carb cleaner). Step 6: Allow to air dry completely — minimum 10 minutes. Step 7: Reinstall, clear codes, and test drive under load.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=MAF+Sensor"
+  },
+  {
+    "car": "BMW 3 Series",
+    "component": "Thermostat",
+    "issue": "Engine Overheating",
+    "search_summary": "Thermostat wax element cooling system stuck closed overheating temperature gauge running hot radiator coolant.",
+    "manual": "Step 1: Allow engine to cool completely. Step 2: Open the radiator drain petcock and collect coolant in a clean pan — BMWs use pink coolant which is not interchangeable with green. Step 3: Locate the thermostat housing on the N52/N54 engine at the front of the block near the water pump. Step 4: Remove the housing bolts (typically 3 x 8mm). Step 5: Extract the old thermostat noting its orientation. Step 6: Install the new thermostat and a fresh O-ring seal. Step 7: Refill with BMW-approved coolant (82-14-2-209-769) at 50/50 with distilled water. Step 8: Bleed air from the system by running the engine with the heater on maximum and squeezing the upper hose until bubbles stop appearing at the reservoir cap.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Thermostat"
+  },
+  {
+    "car": "Chevrolet Silverado",
+    "component": "Brake Pads",
+    "issue": "Squeaking and Grinding When Braking",
+    "search_summary": "Brake pads disc brake friction material worn squeaking grinding scraping noise when stopping braking.",
+    "manual": "Step 1: Loosen lug nuts slightly while the vehicle is still on the ground. Step 2: Jack the vehicle up and secure on jack stands at the frame. Step 3: Remove the wheel. Step 4: Remove the two caliper slide-pin bolts and slide the caliper off the rotor — hang with a wire hook, never by the brake line. Step 5: Slide out the old brake pads. Step 6: Use a C-clamp and an old pad to slowly compress the caliper piston fully into its bore. Step 7: Apply a thin film of brake pad lubricant to the caliper slide pins and the back edges of the new pads — never on the friction surface. Step 8: Install new pads, reinstall the caliper, and torque slide-pin bolts to 38 ft-lbs. Step 9: Pump the brake pedal 20 times before driving to push the pistons out. Step 10: Bed-in new pads with 5–6 moderate stops from 40 mph.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Brake+Pads"
+  },
+  {
+    "car": "Dodge RAM 1500",
+    "component": "Alternator",
+    "issue": "Battery Warning Light and Electrical Failures",
+    "search_summary": "Alternator charging system generator battery warning light dim headlights electrical accessories failing low voltage.",
+    "manual": "DIAGNOSTIC: With engine running, measure battery terminal voltage — healthy alternator produces 13.5–14.5V. Below 13V at idle confirms alternator failure. Also check for a whining or grinding noise from the alternator pulley. REPAIR: Step 1: Disconnect the negative battery terminal. Step 2: Remove the serpentine belt. Step 3: Disconnect the large B+ cable from the alternator output stud and the wiring harness connector. Step 4: Remove the alternator mounting bolts (typically three). Step 5: Maneuver the alternator out — it may be heavy and awkward. Step 6: Install the new alternator and torque mounting bolts to 40 ft-lbs. Step 7: Reconnect all wiring and reinstall the belt. Step 8: Reconnect the battery. Step 9: Verify charging voltage reads 13.5–14.5V with the engine running and accessories on.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Alternator"
+  },
+  {
+    "car": "Nissan Altima",
+    "component": "CV Axle",
+    "issue": "Clicking Noise When Turning",
+    "search_summary": "CV axle constant velocity shaft joint clicking popping snapping sound when turning steering at low speed.",
+    "manual": "Step 1: Jack the vehicle and support on stands. Remove the wheel. Step 2: Remove the axle nut from the wheel hub centre (32mm, requires an impact wrench). Step 3: Remove the lower ball joint pinch bolt and separate the ball joint from the knuckle with a pry bar. Step 4: Pull the hub outward to separate from the axle splines. Step 5: Pry the inner end of the axle out of the transmission with a pry bar — position it at the differential housing, not the axle boot. Step 6: Allow transmission fluid to drip — have a drain pan ready. Step 7: Insert the new CV axle into the transmission until the retaining clip snaps. Step 8: Reassemble in reverse. Step 9: Torque the new axle nut to 174 ft-lbs and stake it with a punch to prevent loosening.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=CV+Axle"
+  },
+  {
+    "car": "Jeep Wrangler",
+    "component": "Shock Absorber",
+    "issue": "Excessive Bouncing and Poor Ride Quality",
+    "search_summary": "Shock absorber strut damper worn leaking bouncing excessive body roll poor ride quality suspension.",
+    "manual": "Step 1: Jack the vehicle under the axle and let the suspension hang at full droop. Step 2: Remove the upper shock mount bolt from inside the wheel arch (19mm). Step 3: Remove the lower shock bolt at the axle bracket (21mm). Step 4: Pull the old shock free. Step 5: Compress the new shock by hand and position it in both mount holes. Step 6: Install the lower bolt first and snug it, then the upper. Step 7: Torque lower mount to 66 ft-lbs and upper mount to 30 ft-lbs. Step 8: Bounce each corner of the vehicle firmly three times to settle the suspension.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Shock+Absorber"
+  },
+  {
+    "car": "Toyota Camry",
+    "component": "Fuel Pump",
+    "issue": "Engine Sputtering and Hard to Start",
+    "search_summary": "Fuel pump module electric in-tank fuel delivery pressure sputtering hard to start stalling at highway speed.",
+    "manual": "DIAGNOSTIC: Connect a fuel pressure gauge to the Schrader valve on the fuel rail. Specification for Camry is 44–50 PSI at idle. Low pressure or pressure that drops rapidly after shutdown indicates a failing pump or check valve. REPAIR: Step 1: Relieve fuel pressure — pull the fuel pump fuse/relay, crank the engine until it stalls, disconnect the battery. Step 2: Remove the rear seat cushion and lift the foam to access the pump access cover. Step 3: Clean the area around the pump lock ring. Step 4: Disconnect the quick-connect fuel lines and electrical connector. Step 5: Remove the lock ring with a strap wrench counter-clockwise. Step 6: Carefully lift the pump module straight up — do not bend the float arm. Step 7: Note the orientation arrow before removing. Step 8: Transfer the float arm to the new module. Step 9: Install with orientation aligned and tighten the lock ring clockwise.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Fuel+Pump"
+  },
+  {
+    "car": "Honda Civic",
+    "component": "Starter Motor",
+    "issue": "Car Won't Crank - Single Click Sound",
+    "search_summary": "Starter motor solenoid no crank single loud click engine won't turn over dead starter armature.",
+    "manual": "DIAGNOSTIC: A single loud click on ignition with no cranking is classic starter motor failure — the solenoid engages but the motor does not spin. Rule out a dead battery first by measuring voltage (should be above 12.4V resting). REPAIR: Step 1: Disconnect the negative battery terminal. Step 2: Locate the starter — on Civic it sits at the rear of the engine block near the transmission bellhousing. May require removing the air intake box for clearance. Step 3: Disconnect the small solenoid trigger wire (spade connector) and the large battery cable from the solenoid stud (10mm nut). Step 4: Remove the two long mounting bolts (14mm). Step 5: Extract the starter. Step 6: Install the new starter and torque mounting bolts to 33 ft-lbs. Step 7: Reconnect wiring — large cable first, then spade connector.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Starter+Motor"
+  },
+  {
+    "car": "BMW 3 Series",
+    "component": "Water Pump",
+    "issue": "Coolant Leak and Engine Overheating",
+    "search_summary": "Water pump electric coolant circulation pump leaking dripping weeping overheating BMW electric pump failure.",
+    "manual": "NOTE: The BMW N52/N54 uses an electric water pump — failure can be sudden and silent. Common failure codes: P0128 (coolant temp below thermostat), 2E82. REPAIR: Step 1: Let the engine cool. Step 2: Drain the coolant from the drain plug on the lower radiator hose. Step 3: Remove the plastic engine cover and any brackets blocking the pump location near the front of the block. Step 4: Disconnect the electrical connector on the pump body. Step 5: Remove the three 10mm mounting bolts and gently pull the pump from the housing. Step 6: Install the new electric pump. Step 7: Refill with BMW Coolant (82-14-2-209-769) and distilled water at 50/50. Step 8: Run the engine and allow self-bleeding. Step 9: Monitor temperature gauge for the next several drives.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Water+Pump"
+  },
+  {
+    "car": "Ford F-150",
+    "component": "Timing Chain",
+    "issue": "Ticking Noise on Cold Start and Engine Misfire",
+    "search_summary": "Timing chain stretched rattle tick cold start cam crank correlation misfire P0016 P0017 timing issue.",
+    "manual": "DIAGNOSTIC: A stretched timing chain rattles loudly on cold start and quiets once oil pressure builds. Common codes: P0016/P0017 (cam-crank correlation), P0300 (random misfire). REPAIR: Step 1: Remove the valve covers and inspect chain slack by pushing the chain sideways at the longest unsupported run — deflection beyond 0.5 inches requires replacement. Step 2: Remove the front timing cover. Step 3: Replace the chain, all plastic guides, all tensioners, and both variable cam timing (VCT) phasers as a complete set. Partial replacement leads to repeat failure. Step 4: Verify correct TDC alignment before assembly. Step 5: Reassemble using new front cover gasket and fresh RTV at all corners. Step 6: Refill with 5W-30 oil and run a cam phaser relearn procedure with a scan tool if the PCM requires it.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Timing+Chain"
+  },
+  {
+    "car": "Volkswagen Golf",
+    "component": "ABS Wheel Speed Sensor",
+    "issue": "ABS Warning Light On",
+    "search_summary": "ABS wheel speed sensor ring reluctor anti-lock brakes warning light fault ABS ESP traction control light.",
+    "manual": "DIAGNOSTIC: Pull ABS codes with a scan tool — C0031, C0034, C0037, C0040 identify which wheel is affected. REPAIR: Step 1: Jack the vehicle and remove the wheel on the affected corner. Step 2: Trace the ABS sensor wiring from the hub up to the connector clipped on the strut or wheel arch. Step 3: Disconnect the connector. Step 4: Remove the 8mm sensor retaining bolt. Step 5: Pull the sensor straight out of the hub bore with a slight twisting motion if seized. Step 6: Inspect the tone ring on the CV axle or hub for missing teeth or rust damage — replace the axle/hub if damaged. Step 7: Push the new sensor fully into the hub bore, install the bolt, and reroute the wiring in all original clips. Step 8: Clear ABS codes and test drive above 20 mph to confirm the warning light is off.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=ABS+Sensor"
+  },
+  {
+    "car": "Mazda CX-5",
+    "component": "AC Compressor",
+    "issue": "Air Conditioning Not Blowing Cold",
+    "search_summary": "AC air conditioning compressor clutch not engaging no cold air refrigerant HVAC system hot cabin compressor failure.",
+    "manual": "DIAGNOSTIC: With AC on max, look and listen — the compressor clutch should click and engage (the centre disc rotates with the pulley). If it does not engage, check the refrigerant pressure via the low-side service port and check the compressor relay and fuse. REPAIR: Step 1: Recover refrigerant with certified equipment — legally required. Step 2: Remove the serpentine belt. Step 3: Disconnect the clutch coil wiring connector. Step 4: Remove the high and low refrigerant line fittings from the compressor — cap immediately to prevent moisture entering the system. Step 5: Remove the four mounting bolts and extract the compressor. Step 6: Install new O-rings lubricated with correct-viscosity PAG oil on the line fittings. Step 7: Install new compressor. Step 8: Evacuate the system with a vacuum pump for a minimum of 45 minutes. Step 9: Recharge with the exact specified amount of R-134a per the underhood label.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=AC+Compressor"
+  },
+  {
+    "car": "Hyundai Elantra",
+    "component": "Control Arm Bushing",
+    "issue": "Clunking Sound Over Bumps",
+    "search_summary": "Control arm bushing front lower suspension arm rubber bushing clunking banging noise over bumps worn deteriorated.",
+    "manual": "DIAGNOSTIC: Worn control arm bushings produce clunking over bumps, during hard acceleration, or heavy braking. Confirm by gripping the control arm and pushing firmly up and down — visible or felt play confirms bushing failure. REPAIR: Step 1: Jack the vehicle and remove the wheel. Step 2: Place a jack under the lower arm to support it at ride height. Step 3: Remove the front and rear bushing-to-subframe bolts. Step 4: Lower the arm to access. Step 5: Use a hydraulic press with correct-size adapters to press the old bushings out. Step 6: Press new bushings in with correct orientation — alignment marks on the bushing must face correctly. Step 7: Reinstall the arm and install new bolts. CRITICAL: Torque the bushing bolts ONLY when the suspension is loaded at ride height, not hanging — spec is 85 ft-lbs. Step 8: Get a 4-wheel alignment after this repair.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Control+Arm+Bushing"
+  },
+  {
+    "car": "Chevrolet Silverado",
+    "component": "Fuel Injector",
+    "issue": "Rough Idle and Poor Fuel Economy",
+    "search_summary": "Fuel injector clogged leaking misfire rough idle poor fuel economy specific cylinder misfiring P0300 P0301.",
+    "manual": "DIAGNOSTIC: Pull misfire codes (P0301–P0308) to identify the cylinder. Swap the suspect injector with an adjacent one — if the misfire code moves, the injector is confirmed bad. REPAIR: Step 1: Pull the fuel pump fuse and crank until the engine stalls to relieve fuel system pressure. Step 2: Disconnect the battery. Step 3: Remove the engine cover and intake manifold if necessary to access the fuel rail. Step 4: Disconnect each injector wiring connector. Step 5: Remove the fuel rail mounting bolts and carefully lift the rail with injectors still attached. Step 6: Twist and pull each injector free from the intake port. Step 7: Install new O-rings on the new injectors — lubricate with clean engine oil. Step 8: Press injectors into the fuel rail first, then seat into the intake ports. Step 9: Reinstall the rail, reconnect wiring, restore fuel pressure by cycling the ignition on and off three times. Step 10: Check for fuel leaks at idle.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Fuel+Injector"
+  },
+  {
+    "car": "Mercedes-Benz C-Class",
+    "component": "Transmission Valve Body",
+    "issue": "Slipping Gears and Harsh Shifting",
+    "search_summary": "Transmission valve body automatic gearbox slipping jerky harsh shifts gear change P2714 mechatronics 7G-Tronic.",
+    "manual": "DIAGNOSTIC: The 7G-Tronic transmission's mechatronics (valve body + electronics) is a common failure point. Symptoms: harsh gear changes, slipping, delayed engagement, codes P2714/P2715. Step 1: Check transmission fluid — burnt smell or very dark colour indicates contamination. SERVICE: Step 1: Warm the transmission by driving. Step 2: Remove the transmission sump pan. Step 3: Remove the filter and the conductor plate/mechatronics unit — these are replaced as an assembly. Step 4: Install new unit and pan with a new gasket. Step 5: Fill with Mercedes-approved MB 236.14 ATF to the exact level. Step 6: Using Mercedes STAR Diagnostics or Autel equivalent, perform a transmission adaptation reset — this is essential and cannot be skipped. Full valve body replacement requires transmission removal — professional service recommended.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Valve+Body"
+  },
+  {
+    "car": "Toyota RAV4",
+    "component": "Radiator",
+    "issue": "Coolant Leak and Engine Overheating",
+    "search_summary": "Radiator coolant leak overheating antifreeze puddle under car plastic tank cracked radiator core aluminium.",
+    "manual": "Step 1: Allow engine to cool completely — never open a hot or pressurised cooling system cap. Step 2: Open the drain petcock at the base of the radiator and collect all coolant into a clean container. Step 3: Remove the upper and lower radiator hoses. Step 4: On AT models, disconnect the automatic transmission cooler lines at the bottom of the radiator — plug them immediately to avoid fluid loss. Step 5: Remove the cooling fan shroud retaining clips and move the shroud rearward. Step 6: Remove the upper radiator mount brackets. Step 7: Lift the radiator straight up and out. Step 8: Transfer the drain petcock and rubber mount grommets to the new radiator. Step 9: Install in reverse order. Step 10: Fill with Toyota Super Long Life Coolant (pink) at 50/50 with distilled water. Step 11: Run engine with heater on full until the thermostat opens — squeeze the upper hose to burp trapped air.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Radiator"
+  },
+  {
+    "car": "Kia Sorento",
+    "component": "Ignition Coil",
+    "issue": "Engine Misfiring and Shaking",
+    "search_summary": "Ignition coil on plug coil pack misfire engine shaking check engine light P0300 P0301 individual coil failure.",
+    "manual": "DIAGNOSTIC: Pull misfire codes — P0301 through P0306 identify the specific cylinder. Confirm the faulty coil by swapping it with an adjacent cylinder — if the misfire code moves to the new cylinder, the original coil is confirmed bad. REPAIR: Step 1: Disconnect the battery. Step 2: Remove the engine cover if present. Step 3: Unplug the coil connector on the affected cylinder — press the tab and pull straight up. Step 4: Remove the single 10mm retaining bolt. Step 5: Pull the coil straight up out of the spark plug tube — it may be tight. Step 6: Inspect the spark plug for oil fouling while access is open — replace if saturated. Step 7: Install the new coil, secure the bolt, reconnect the connector. Step 8: Clear fault codes. RECOMMENDATION: On vehicles over 80,000 km, replacing all coils preventively is cost-effective as they tend to fail in sequence.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Ignition+Coil"
+  },
+  {
+    "car": "Maruti Suzuki Swift",
+    "component": "Clutch Plate",
+    "issue": "Slipping Clutch and Difficulty in Gear Change",
+    "search_summary": "Clutch plate disc friction material slipping worn clutch difficulty engaging gears RPM revving without acceleration manual gearbox.",
+    "manual": "DIAGNOSTIC: A slipping clutch allows engine RPM to rise when accelerating without a proportional increase in vehicle speed, especially under load. Test: In third gear at low speed, floor the accelerator — if RPM spikes but speed does not climb, the clutch is slipping. REPAIR: Step 1: Disconnect the negative battery terminal and remove the battery and battery tray for access. Step 2: Support the engine with a jack and remove the transmission mount. Step 3: Remove the gearbox by unbolting the bell housing bolts and sliding the gearbox rearward off the input shaft — never let the gearbox hang from the input shaft. Step 4: Remove the pressure plate bolts gradually in a criss-cross pattern. Step 5: Remove the pressure plate and worn clutch disc. Step 6: Inspect the flywheel surface — resurface or replace if scored. Step 7: Install the new clutch disc (spring side toward the gearbox) using an alignment tool to centre it. Step 8: Install the new pressure plate and torque bolts to 18 ft-lbs in a criss-cross pattern. Step 9: Inspect and replace the release bearing if any roughness is felt. Step 10: Reinstall gearbox. Step 11: Adjust clutch cable freeplay to 5–10mm.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Clutch+Plate"
+  },
+  {
+    "car": "Maruti Suzuki Swift",
+    "component": "Timing Belt",
+    "issue": "Cold Start Rattle and Engine Timing Issues",
+    "search_summary": "Timing belt cam belt worn cracked frayed cold start rattle timing skip engine out of time valve damage risk.",
+    "manual": "WARNING: The Swift K-series and older G10/G13 engines are interference engines — a broken timing belt causes piston-to-valve contact and catastrophic engine damage. Replace every 60,000 km regardless of appearance. REPLACEMENT: Step 1: Disconnect the battery and set the engine to TDC (Top Dead Centre) by aligning the camshaft and crankshaft timing marks. Step 2: Remove the engine mount bracket on the timing belt side — support the engine from below with a jack. Step 3: Remove the timing belt cover. Step 4: Mark the belt rotation direction with paint before removal if reusing tensioners. Step 5: Loosen the tensioner pulley and slide the belt off. Step 6: Install the new belt ensuring all timing marks remain aligned. Step 7: Set the tensioner to the correct preload per the workshop manual. Step 8: Rotate the engine two full revolutions by hand and recheck all timing marks. Step 9: Reassemble the cover and mount bracket.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Timing+Belt"
+  },
+  {
+    "car": "Maruti Suzuki Alto K10",
+    "component": "Wheel Bearing",
+    "issue": "Humming Noise That Increases with Speed",
+    "search_summary": "Wheel bearing hub bearing worn humming growling noise that increases with vehicle speed changes when cornering.",
+    "manual": "DIAGNOSTIC: A worn wheel bearing produces a rhythmic humming or growling noise that increases with speed. To identify which side: sway the vehicle gently at 60 km/h — if the noise increases on a left turn, the right bearing is failing (and vice versa). Also lift the wheel and feel for roughness when rotating by hand. REPAIR: Step 1: Loosen the hub nut (28mm) while the vehicle is still on the ground. Step 2: Jack the vehicle and remove the wheel. Step 3: Remove the brake caliper and disc (or brake drum on Alto). Step 4: Disconnect the ABS sensor if equipped. Step 5: Remove the hub nut and use a hub puller to extract the hub from the knuckle. Step 6: Press out the old bearing using a hydraulic press. Step 7: Press the new bearing into the knuckle and the hub into the bearing. Step 8: Torque the hub nut to 150 Nm and stake it. Step 9: Reinstall in reverse order and verify no noise.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Wheel+Bearing"
+  },
+  {
+    "car": "Maruti Suzuki Alto K10",
+    "component": "Power Steering Pump",
+    "issue": "Heavy Steering and Whining Noise",
+    "search_summary": "Power steering pump hydraulic heavy stiff steering effort whining noise steering fluid leak low fluid level.",
+    "manual": "DIAGNOSTIC: Hydraulic power steering whine at full steering lock is normal — whine at straight-ahead driving indicates a failing pump. Check fluid level in the reservoir first — low fluid causes both heavy steering and whining. REPAIR: Step 1: Place a drain pan under the pump. Step 2: Remove the serpentine/drive belt. Step 3: Disconnect the high-pressure and low-pressure (return) hoses from the pump. Step 4: Remove the pump mounting bolts. Step 5: Install the new pump and reconnect hoses — use new O-rings on the high-pressure fitting. Step 6: Reinstall the belt. Step 7: Fill the reservoir with the correct power steering fluid (check the cap for specification). Step 8: Bleed the system: with the engine off, turn the wheel lock-to-lock several times. Start the engine and turn lock-to-lock again with the wheels off the ground until the whining stops and no air bubbles appear in the reservoir.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Power+Steering+Pump"
+  },
+  {
+    "car": "Maruti Suzuki Baleno",
+    "component": "Throttle Body",
+    "issue": "Poor Throttle Response and Rough Idle",
+    "search_summary": "Throttle body electronic throttle control dirty carbon buildup poor pickup rough idle stumbling on acceleration.",
+    "manual": "DIAGNOSTIC: A dirty throttle body causes rough idle, poor pickup, stalling after cold start, or an idle surging between 500–1000 RPM. The electronic throttle on the Baleno K12C cannot have its idle speed adjusted manually — cleaning is the repair. REPAIR: Step 1: Disconnect the negative battery terminal. Step 2: Remove the air intake duct from the throttle body. Step 3: Unplug the throttle body wiring connector. Step 4: Remove the four throttle body mounting bolts (8mm). Step 5: With the throttle body off the car, hold the throttle plate open manually and spray throttle body cleaner on the bore walls and plate edges. Wipe with a soft cloth — do not use abrasives. Step 6: Reinstall with a new gasket. Step 7: IMPORTANT: After reinstalling, perform a throttle body relearn: disconnect the battery for 15 minutes, then reconnect and let the car idle for 10 minutes without touching the accelerator. This allows the ECU to relearn the zero-point position.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Throttle+Body"
+  },
+  {
+    "car": "Maruti Suzuki Baleno",
+    "component": "EGR Valve",
+    "issue": "Rough Idle, Power Loss and Black Smoke",
+    "search_summary": "EGR exhaust gas recirculation valve clogged stuck dirty carbon rough idle power loss black smoke diesel engine.",
+    "manual": "DIAGNOSTIC: A clogged or stuck EGR valve causes rough idle, power loss, black smoke from the exhaust, and codes P0400–P0406. More common in the 1.3 DDiS diesel Baleno. REPAIR — CLEANING: Step 1: Locate the EGR valve on the intake manifold side of the engine. Step 2: Disconnect the electrical connector and the EGR pipe/cooler connections. Step 3: Remove the valve. Step 4: Spray the valve with EGR cleaner and soak for 30 minutes. Step 5: Use a wire brush to remove hardened carbon deposits from the valve seat and passage. Step 6: Actuate the valve manually while cleaning to free the pintle. Step 7: Reinstall once clean and dry, using a new gasket. REPLACEMENT (if valve is seized): Remove and replace with a new or remanufactured unit. Clear codes and test drive.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=EGR+Valve"
+  },
+  {
+    "car": "Maruti Suzuki Dzire",
+    "component": "Power Steering Rack",
+    "issue": "Heavy Steering and Fluid Leak Under Car",
+    "search_summary": "Rack and pinion steering rack power steering hydraulic leak fluid dripping heavy stiff steering effort wandering.",
+    "manual": "DIAGNOSTIC: Power steering fluid dripping from the rack seals indicates a failing rack. Symptoms include heavy steering, a fluid trail under the front of the car, and a groaning noise on full lock. REPAIR: Step 1: Raise the vehicle on a lift or stands and remove both front wheels. Step 2: Mark the tie rod end-to-rack adjustment position before removal. Step 3: Remove the tie rod ends from the steering knuckles using a separator tool. Step 4: Remove the intermediate shaft U-joint from the rack input pinion. Step 5: Remove the rack mounting bolts from the subframe. Step 6: Slide the rack out through the passenger side wheel arch. Step 7: Install the new rack and connect all components in reverse order. Step 8: Set tie rod lengths to the marked positions to preserve approximate alignment. Step 9: Refill the power steering reservoir. Step 10: Bleed the system and get a 4-wheel alignment.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Steering+Rack"
+  },
+  {
+    "car": "Maruti Suzuki Ertiga",
+    "component": "Engine Mount",
+    "issue": "Excessive Vibration in Cabin at Idle",
+    "search_summary": "Engine mount rubber hydraulic worn torn excessive vibration shaking in cabin at idle gear change clunk.",
+    "manual": "DIAGNOSTIC: Worn engine mounts allow the engine to rock and transmit vibration directly to the body. Clunking when shifting from Park to Drive or during hard acceleration, combined with excessive cabin vibration at idle, confirms mount failure. Inspect: Place a finger on the mount rubber — with the engine running and AC on, the mount should have minimal movement. REPAIR: Step 1: Support the engine from below with a floor jack and a piece of wood to distribute the load. Step 2: Remove the mount bracket bolts from the engine block first, then the mount-to-subframe/chassis bolts. Step 3: Lift the engine slightly with the jack to relieve load, then extract the old mount. Step 4: Install the new mount and hand-tighten all bolts. Step 5: Lower the engine to its natural position and then torque the chassis bolts first, then the engine bracket bolts. NOTE: Always torque mounts with the engine weight on them — do not torque with the engine lifted.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Engine+Mount"
+  },
+  {
+    "car": "Maruti Suzuki Brezza",
+    "component": "Turbocharger",
+    "issue": "Loss of Power and Excessive Smoke",
+    "search_summary": "Turbocharger turbine compressor bearing failure loss of boost power lag blue smoke oil burning worn turbo.",
+    "manual": "DIAGNOSTIC: Turbo failure symptoms include: loss of power above 2500 RPM, blue or white smoke from the exhaust, oil consumption increase, or a high-pitched whining from the turbo. Check for oil in the intercooler pipe (indicates turbo seal failure). Confirm boost pressure with a gauge — should reach 1.0–1.2 bar under load on the 1.5 DDiS engine. REPAIR: Step 1: Disconnect the battery. Step 2: Remove the turbo inlet hose, intercooler pipes, and the exhaust downpipe from the turbine housing. Step 3: Disconnect the oil supply and return lines from the turbo centre section — plug to prevent contamination. Step 4: Remove the turbo mounting nuts from the exhaust manifold. Step 5: Extract the complete turbocharger assembly. Step 6: IMPORTANT: Before installing the new unit, prime it with clean engine oil by pouring oil into the oil inlet port and rotating the shaft by hand. This prevents dry-start damage. Step 7: Reconnect all pipes and tighten the exhaust manifold nuts to 25 Nm. Step 8: Change the engine oil and filter at this point.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Turbocharger"
+  },
+  {
+    "car": "Maruti Suzuki Brezza",
+    "component": "Diesel Particulate Filter",
+    "issue": "DPF Warning Light and Reduced Engine Power",
+    "search_summary": "DPF diesel particulate filter blocked clogged soot warning light reduced power limp mode regeneration failed.",
+    "manual": "DIAGNOSTIC: The DPF warning light illuminated with a reduction in power (limp mode) means the filter is saturated with soot and passive regeneration has failed. This often happens with predominantly city/short-trip driving. FORCED REGENERATION PROCEDURE: Step 1: Ensure the fuel tank is above one-quarter full. Step 2: Drive on an open highway at speeds above 70 km/h for 20–30 minutes continuously — this raises exhaust temperature to allow active regeneration. A scan tool with regeneration initiation capability can force the process. PHYSICAL CLEANING (if blocked beyond regeneration): Step 1: Remove the DPF from the exhaust system. Step 2: Soak with DPF cleaning solution through the inlet. Step 3: High-pressure flush from the outlet direction. Step 4: Allow to dry fully in a warm area. Step 5: Reinstall. NOTE: After cleaning, the DPF must be reset with a scan tool that supports DPF data reset.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=DPF+Filter"
+  },
+  {
+    "car": "Tata Nexon",
+    "component": "Clutch Master Cylinder",
+    "issue": "Soft or Spongy Clutch Pedal",
+    "search_summary": "Clutch master cylinder hydraulic clutch soft spongy pedal goes to floor clutch fluid leak internal seal failure.",
+    "manual": "DIAGNOSTIC: A clutch master cylinder that is leaking internally causes the pedal to slowly sink to the floor under sustained pressure and may cause difficulty disengaging the clutch. Check the clutch fluid reservoir — low level indicates a leak. REPAIR: Step 1: Remove as much clutch fluid as possible from the reservoir with a syringe. Step 2: Locate the clutch master cylinder behind the pedal box in the engine bay or under the dashboard. Step 3: Disconnect the push rod from the clutch pedal. Step 4: Disconnect the hydraulic line from the master cylinder (have a rag ready for fluid drips). Step 5: Remove the two mounting nuts and pull the cylinder free. Step 6: Install the new master cylinder and reconnect the push rod and hydraulic line. Step 7: Bleed the clutch hydraulic system: fill the reservoir, attach a clear bleed tube to the slave cylinder bleeder nipple, and pump the clutch pedal repeatedly while opening the nipple to expel air. Step 8: Continue until no air bubbles appear in the tube. Step 9: Check pedal travel — should have 5–10mm of freeplay.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Clutch+Master+Cylinder"
+  },
+  {
+    "car": "Tata Nexon",
+    "component": "Front Strut Assembly",
+    "issue": "Knocking and Clunking Sound Over Bumps",
+    "search_summary": "Front strut shock absorber suspension knocking clunking banging over bumps or potholes worn strut damper.",
+    "manual": "DIAGNOSTIC: A worn or leaking strut allows the suspension to oscillate excessively over bumps. Confirm by pressing firmly down on each front corner of the car — it should rebound once and stop. Multiple bounces indicate a worn damper. Also inspect the strut for oil leaks on the body of the shock. REPAIR — STRUT REPLACEMENT: Step 1: Loosen the three top-mount strut tower nuts from inside the engine bay (do not remove yet). Step 2: Jack the vehicle and remove the wheel. Step 3: Disconnect the brake hose and ABS sensor wire from the strut bracket. Step 4: Mark the strut-to-knuckle bolt orientation for alignment reference. Step 5: Remove the two pinch bolts at the bottom of the strut. Step 6: Remove the top-mount nuts from inside the engine bay and lower the strut out. Step 7: Use a spring compressor to safely remove the spring from the old strut. Step 8: Install the spring on the new strut and release the compressor. Step 9: Reinstall the complete assembly in reverse order. Step 10: Get the front wheel alignment checked.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Front+Strut"
+  },
+  {
+    "car": "Tata Punch",
+    "component": "Electric Power Steering Motor",
+    "issue": "EPS Warning Light and Heavy Steering",
+    "search_summary": "EPS electric power steering motor warning light heavy stiff steering assist failure steering warning.",
+    "manual": "DIAGNOSTIC: The EPS warning light on the Tata Punch indicates the system has detected a fault and disabled power assist, leaving the steering heavy and difficult. Common causes: low battery voltage, a faulty EPS motor, or a steering torque sensor issue. INITIAL CHECKS: Step 1: Check battery voltage — EPS systems are voltage-sensitive and will disable below approximately 11V. Step 2: Check for a loose battery terminal or a failing alternator. Step 3: Scan for EPS-specific codes — common codes: U0116 (EPS module not responding), C1511 (torque sensor). REPAIR — MOTOR/UNIT REPLACEMENT: Step 1: Disconnect the battery. Step 2: The EPS motor is mounted on the steering column or rack depending on the variant. Step 3: Disconnect the motor's multi-pin connector. Step 4: Remove the bolts securing the motor to the column. Step 5: Install the new motor and reconnect all connections. Step 6: Perform a steering angle sensor calibration using a scan tool — this is mandatory after EPS work.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=EPS+Motor"
+  },
+  {
+    "car": "Tata Tiago",
+    "component": "Idle Speed Control Valve",
+    "issue": "Fluctuating Idle and Engine Stalling",
+    "search_summary": "Idle speed control valve IAC idle air control valve fluctuating hunting surging idle stalling at traffic light stop.",
+    "manual": "DIAGNOSTIC: A faulty idle speed control valve causes the engine idle to hunt between high and low RPM, stall when coming to a stop, or idle too low and die at traffic lights. REPAIR: Step 1: Locate the IAC valve on the intake manifold or throttle body (small valve with electrical connector). Step 2: Disconnect the electrical connector. Step 3: Remove the two mounting screws. Step 4: Extract the valve and spray the pintle and passage with throttle body cleaner. Step 5: Work the pintle back and forth with your fingers to free any carbon buildup. Step 6: Reinstall and reconnect. Step 7: Perform an idle relearn: run the engine at idle with all accessories off for 10 minutes without touching the accelerator. Step 8: If the idle remains unstable after cleaning, replace the IAC valve.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=IAC+Valve"
+  },
+  {
+    "car": "Tata Tiago",
+    "component": "Fuel Pump (CNG Variant)",
+    "issue": "Hard Starting and Stalling on CNG Mode",
+    "search_summary": "CNG fuel pump regulator pressure issue hard starting on CNG mode stalling rough running compressed natural gas kit.",
+    "manual": "DIAGNOSTIC: The Tata Tiago CNG variant uses a factory-fitted CNG kit. Difficulty starting in CNG mode or stalling at idle on CNG while petrol mode works normally suggests a CNG pressure regulator or solenoid issue. CHECKS: Step 1: Verify CNG tank pressure (visible on the dash gauge) — pressure below 50 bar causes fuel delivery issues. Step 2: Check the CNG solenoid valve (high-pressure solenoid near the tank) for operation — you should hear a click when the ignition is turned on. Step 3: Inspect the CNG filter — replace every 20,000 km. REGULATOR REPAIR: Step 1: Relieve CNG pressure by running the engine in CNG mode until it stalls. Step 2: Locate the two-stage pressure regulator in the engine bay. Step 3: Disconnect the inlet and outlet fittings. Step 4: Remove the regulator bracket bolts. Step 5: Install the new regulator with correct torque on fittings. Step 6: Check all connections for leaks with soapy water before starting. Step 7: Purge the system by running in petrol mode first, then switch to CNG.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=CNG+Fuel+Pump"
+  },
+  {
+    "car": "Tata Harrier",
+    "component": "Diesel Fuel Injector",
+    "issue": "Rough Running, White Smoke and Poor Power",
+    "search_summary": "Diesel common rail injector rough running white smoke excessive diesel smoke poor power balance issue misfire.",
+    "manual": "DIAGNOSTIC: Common rail diesel injector failure on the Harrier 2.0L Kryotec manifests as rough/uneven idling, white or grey smoke, excessive diesel smell, or significant power loss. Use a scan tool to perform a cylinder cut-out test — disabling each cylinder in turn reveals the misfiring cylinder. REPAIR: Step 1: Relieve rail pressure by cranking with the fuel pump relay removed. Step 2: Disconnect the battery. Step 3: Remove the high-pressure fuel line from the suspect injector. Step 4: Disconnect the injector electrical connector. Step 5: Remove the injector clamp bolt and use a slide hammer or injector puller to extract the injector — never lever against the cylinder head. Step 6: Replace the copper sealing washer at the bottom of the injector bore. Step 7: Install the new injector and tighten the clamp bolt to 30 Nm. Step 8: Reconnect the fuel line to the correct torque (25 Nm). Step 9: An injector coding/programming procedure is required using a scan tool.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Diesel+Injector"
+  },
+  {
+    "car": "Hyundai Creta",
+    "component": "DCT Dual Clutch Transmission",
+    "issue": "Jerky Shifting at Low Speed in City Traffic",
+    "search_summary": "DCT dual clutch transmission jerky shudder rough shift low speed city traffic 1.4 turbo petrol automatic.",
+    "manual": "DIAGNOSTIC: The 7-speed DCT (Dual Clutch Transmission) used in the Hyundai Creta 1.4T is known for low-speed judder in bumper-to-bumper traffic — this is inherent to wet DCT clutch behaviour and may improve with a TCU (Transmission Control Unit) software update. However, physical shudder that worsens over time often indicates clutch pack wear or contaminated TCF (Transmission Clutch Fluid). SERVICE — FLUID CHANGE: Step 1: Warm the transmission by driving. Step 2: Remove the drain plug from the DCT sump and drain the old fluid. Step 3: Reinstall the drain plug. Step 4: Fill with Hyundai-approved DCT fluid (SK ATF-DCT or equivalent) via the fill plug until it overflows slightly. Step 5: Drive and recheck level. CALIBRATION: After a fluid change, perform a TCU adaptation reset with a Hyundai GDS scan tool — this resets the clutch engagement points.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=DCT+Transmission"
+  },
+  {
+    "car": "Hyundai Creta",
+    "component": "AC Compressor Clutch",
+    "issue": "AC Not Cooling in Indian Summer Heat",
+    "search_summary": "AC compressor clutch air conditioning not cooling hot cabin summer heat refrigerant low compressor not engaging India.",
+    "manual": "DIAGNOSTIC: In extreme Indian summer heat, AC performance issues are common. Step 1: Check if the compressor clutch engages when AC is turned on (look for the disc in the centre of the pulley rotating). If it doesn't engage, check: refrigerant pressure (low-side should be 25–40 PSI), the clutch relay fuse, and the ambient temperature sensor. Step 2: If the clutch engages but cooling is insufficient, the refrigerant may be low or the system may have moisture. CLUTCH REPLACEMENT: Step 1: Recover refrigerant with certified equipment. Step 2: Remove the clutch coil nut (usually a snap ring). Step 3: Use a clutch puller to extract the clutch disc. Step 4: Remove the snap ring and slide the pulley off the compressor nose. Step 5: Remove the field coil. Step 6: Install new field coil, pulley, and disc. Step 7: Set the clutch air gap to 0.3–0.5mm using shims. Step 8: Recharge the system with R-134a to the specified amount. Step 9: Check vent temperature — should be 8–12°C on a hot day.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=AC+Compressor+Clutch"
+  },
+  {
+    "car": "Hyundai Grand i10 Nios",
+    "component": "Idle Air Control Valve",
+    "issue": "Rough Idle and Stalling at Traffic Lights",
+    "search_summary": "Idle air control valve IAC stalling rough unstable idle at traffic lights stop junction carbon dirty valve.",
+    "manual": "DIAGNOSTIC: The IAC valve on the Grand i10 Nios 1.2L Kappa engine controls airflow at idle. Carbon buildup causes rough/fluctuating idle and stalling when the car comes to a stop. Often misdiagnosed as a fuel pressure issue. REPAIR: Step 1: Locate the IAC valve on the throttle body or intake manifold. Step 2: Disconnect the small 2-pin electrical connector. Step 3: Remove the two mounting screws. Step 4: Spray the IAC valve and passage port with throttle body cleaner. Step 5: Work the pintle (needle) back and forth several times to loosen deposits. Step 6: Allow to dry. Step 7: Reinstall. Step 8: Perform an idle relearn: Warm the engine to normal operating temperature, turn the AC off, place in Neutral, and allow to idle undisturbed for 10 minutes. Step 9: If the problem persists, replace the IAC valve.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=IAC+Valve"
+  },
+  {
+    "car": "Hyundai Grand i10 Nios",
+    "component": "Brake Caliper",
+    "issue": "Car Pulling to One Side When Braking",
+    "search_summary": "Brake caliper seized stuck piston dragging pulling to one side when braking uneven braking overheated wheel.",
+    "manual": "DIAGNOSTIC: A seized brake caliper causes the vehicle to pull sharply to one side during braking. After driving, the affected wheel will be noticeably hotter than the other side. The seized piston keeps constant light pressure on the disc, causing rapid pad and disc wear and fuel economy reduction. REPAIR: Step 1: Jack the vehicle and remove the wheel on the pulling side. Step 2: Inspect the brake disc surface — heavy heat marks confirm caliper drag. Step 3: Remove the two caliper slide-pin bolts. Step 4: Extract the caliper and inspect: try to push the piston back in with a C-clamp. If the piston is seized, the caliper must be replaced. Step 5: Also clean and lubricate the slide pins — seized slide pins are the most common cause of caliper drag. Step 6: If piston is seized: replace the entire caliper assembly. Step 7: Bleed the brake circuit on that corner. Step 8: Replace the brake pads and inspect the disc for minimum thickness before reinstalling.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Brake+Caliper"
+  },
+  {
+    "car": "Hyundai Verna",
+    "component": "Variable Valve Timing (VVT) Solenoid",
+    "issue": "Check Engine Light and Rough Idle After Warmup",
+    "search_summary": "VVT solenoid variable valve timing actuator oil control valve rough idle check engine P0010 P0011 P0012.",
+    "manual": "DIAGNOSTIC: The VVT solenoid (also called OCV — Oil Control Valve) on the Verna 1.6L petrol engine controls oil flow to the cam phaser. Failure causes codes P0010/P0011/P0012 (intake cam timing error), rough idle that gets worse when warm, or rattling on startup. REPAIR: Step 1: With the engine cold, remove the engine cover. Step 2: Locate the VVT solenoid — typically a small cylindrical component screwed into the cam cover or front of the block with a small electrical connector. Step 3: FIRST: Try replacing the engine oil and filter if oil is old — contaminated oil frequently causes VVT solenoid clogging without needing solenoid replacement. Step 4: Disconnect the wiring connector. Step 5: Remove the single retaining bolt. Step 6: Extract the solenoid. Step 7: Inspect the screen filter on the solenoid base — clean with solvent if blocked. Step 8: If the screen is clean but the solenoid tests bad (no movement when 12V applied), replace it. Step 9: Install the new solenoid and torque to 10 Nm.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=VVT+Solenoid"
+  },
+  {
+    "car": "Hyundai i20",
+    "component": "PCV Valve",
+    "issue": "Oil Consumption and Rough Idle",
+    "search_summary": "PCV positive crankcase ventilation valve oil consumption rough idle blue smoke oil in intake fouled spark plugs.",
+    "manual": "DIAGNOSTIC: A stuck-open or missing PCV valve allows unmetered air to enter the intake, causing rough idle and lean mixture. A stuck-closed PCV valve causes crankcase pressure buildup, leading to oil leaks, oil consumption, and blue smoke. On the i20 1.2L Kappa, check the small rubber hose connecting the valve cover to the intake manifold — often cracked or collapsed. REPAIR: Step 1: Locate the PCV valve on the valve cover (often a small rubber grommet with a hose attached). Step 2: Pull the valve out — it should rattle freely when shaken. If it does not rattle, it is stuck and must be replaced. Step 3: Inspect the breather hose for cracks or collapse. Step 4: Replace the PCV valve and hose. Step 5: If oil is present in the intake manifold (blue smoke), clean the intake manifold with intake cleaner spray. Step 6: Check spark plugs for oil fouling — replace if wet with oil.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=PCV+Valve"
+  },
+  {
+    "car": "Mahindra Scorpio N",
+    "component": "Diesel Fuel Filter",
+    "issue": "Power Loss and Hard Starting",
+    "search_summary": "Diesel fuel filter clogged blocked contaminated power loss hard start common rail diesel filter service maintenance.",
+    "manual": "DIAGNOSTIC: A clogged diesel fuel filter restricts fuel supply to the common rail pump, causing progressive power loss under load, difficulty starting, or hesitation above 2000 RPM. The Mahindra Scorpio N mHawk diesel should have its fuel filter replaced every 30,000 km or annually. REPLACEMENT: Step 1: Locate the fuel filter — typically mounted on the engine bay firewall or on the fuel rail on the mHawk engine. Step 2: Relieve system pressure by loosening the bleed screw on the filter housing one turn and actuating the hand primer pump until resistance is felt. Step 3: Place a rag under the housing. Step 4: Unscrew the filter housing and remove the old filter element. Step 5: Fill the new filter with clean diesel fuel before installation — this reduces priming time. Step 6: Install the new element and tighten the housing to 25 Nm. Step 7: Prime the system: pump the manual primer pump 20–30 times until firm resistance is felt. Step 8: Start the engine — may take a few cranks to build pressure. Step 9: Check all connections for leaks.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Diesel+Fuel+Filter"
+  },
+  {
+    "car": "Mahindra Scorpio N",
+    "component": "Glow Plug",
+    "issue": "Difficult Cold Morning Start and White Smoke",
+    "search_summary": "Glow plug diesel engine cold start difficulty white smoke cylinder pre-heat heating plug failed open circuit.",
+    "manual": "DIAGNOSTIC: Diesel engines rely on glow plugs to pre-heat the combustion chamber for cold starting. Failed glow plugs cause extended cranking, hard starting in the morning, white smoke (unburnt diesel), and rough running until the engine warms. The mHawk engine has one glow plug per cylinder (4 total). Use a multimeter to check resistance across each glow plug terminal to ground — a healthy plug reads 0.5–2 ohms. Very high resistance (open circuit) indicates failure. REPLACEMENT: Step 1: Allow the engine to cool — glow plugs can seize in a hot head. Step 2: Remove the wiring harness connector bus from all glow plugs. Step 3: Apply penetrating oil around the base of each plug and allow 30 minutes to soak. Step 4: Use a glow plug socket (10mm hex) to loosen each plug slowly. If severe resistance is felt, do not force — apply more penetrating oil and heat the surrounding metal slightly. Forcing will snap the plug in the head. Step 5: Install new plugs and torque to 13 Nm — do not overtighten. Step 6: Reconnect the bus connector.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Glow+Plug"
+  },
+  {
+    "car": "Mahindra Thar",
+    "component": "Transfer Case",
+    "issue": "4WD Engagement Failure and Grinding Noise",
+    "search_summary": "Transfer case 4WD four wheel drive 4x4 engagement failure grinding noise difficulty switching 2H 4H 4L mode.",
+    "manual": "DIAGNOSTIC: The Thar 4x4 transfer case allows selection of 2H (2-wheel drive high), 4H (4-wheel high), and 4L (4-wheel low). Difficulty engaging or disengaging 4WD, grinding noise during mode switch, or a blinking 4WD indicator suggest a transfer case issue. Common causes: damaged shift fork, worn chain, low transfer case oil, or a faulty shift motor (on electronic shift-on-the-fly models). BASIC SERVICE: Step 1: Check the transfer case oil level via the fill plug on the side of the case — oil should be level with the fill hole. Step 2: Drain and refill with fresh GL-5 gear oil every 50,000 km. ENGAGEMENT ISSUE: Step 3: Stop the vehicle on flat ground. Put the transmission in Neutral. Slowly shift to 4H — never engage 4L while moving above 5 km/h. Step 4: If engagement remains difficult after stopping, check the shift linkage or vacuum lines (on vacuum-shift models). Step 5: Electronic shift-on-the-fly failure requires scanning the 4WD module for codes.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Transfer+Case"
+  },
+  {
+    "car": "Mahindra Thar",
+    "component": "Propeller Shaft Universal Joint",
+    "issue": "Vibration and Clunking Under the Vehicle",
+    "search_summary": "Propeller shaft drive shaft universal joint U-joint worn vibration clunking driveline shudder 4x4 off-road use.",
+    "manual": "DIAGNOSTIC: Worn universal joints (U-joints) in the propeller shaft cause a vibration felt through the floor at specific speeds (often 60–80 km/h), and a clunking noise when accelerating from a stop or engaging 4WD. Inspect by grabbing the propeller shaft and trying to rotate it slightly — any free play at the U-joint indicates wear. REPLACEMENT: Step 1: Mark the propeller shaft flange position relative to the differential yoke before removal — this preserves rotational balance. Step 2: Remove the four U-bolt nuts securing the U-joint to the differential yoke. Step 3: Slide the shaft rearward to disengage the slip yoke from the transfer case output. Step 4: Remove the old U-joint snap rings with snap ring pliers. Step 5: Use a U-joint press or a vice and sockets to drive out the old bearings from the yoke ears. Step 6: Press the new U-joint bearings into the yoke, ensuring the grease fittings face the correct direction. Step 7: Install new snap rings. Step 8: Reinstall the shaft aligned with the original marks. Step 9: Grease all fittings with multi-purpose grease.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Universal+Joint"
+  },
+  {
+    "car": "Mahindra XUV700",
+    "component": "AdBlue SCR System",
+    "issue": "AdBlue Warning Light and Engine Power Reduction",
+    "search_summary": "AdBlue DEF SCR selective catalytic reduction system warning limp mode power reduction diesel BS6 urea injection.",
+    "manual": "DIAGNOSTIC: The XUV700 2.2L mHawk diesel uses a BS6-compliant SCR (Selective Catalytic Reduction) system requiring AdBlue (Diesel Exhaust Fluid) to reduce NOx emissions. Warning stages: Step 1 (Yellow light): AdBlue level low — refill within 2,000 km. Step 2 (Red light): Level critically low — speed limited to 30 km/h if not refilled. Step 3: Engine will not restart after shutdown if AdBlue is empty. REFILLING: Step 1: Locate the blue-capped AdBlue filler (usually near the diesel filler or in the boot area). Step 2: Pour AdBlue carefully — do NOT mix with diesel and do NOT use water. Use only ISO 22241-compliant AdBlue. Step 3: Fill until the level shows on the gauge. FAULT (light stays on after refill): Step 4: Scan for SCR-specific fault codes. Common issues: quality sensor fault (P20EE), NOx sensor failure, or dosing pump fault. Step 5: Clear codes and verify AdBlue quality with a refractometer (concentration should be 31.8–33.2%).",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=AdBlue+SCR"
+  },
+  {
+    "car": "Honda City",
+    "component": "VTEC Solenoid",
+    "issue": "Poor High-RPM Power and Check Engine Light",
+    "search_summary": "VTEC solenoid oil pressure switch variable valve timing lift engagement rough idle P0014 P0075 poor high RPM power.",
+    "manual": "DIAGNOSTIC: The VTEC solenoid controls oil pressure that switches the camshaft between low-lift and high-lift profiles at approximately 5,500 RPM. Failure causes loss of the high-RPM power surge, a Check Engine Light (code P0014, P0075 on different variants), and rough idle. FIRST CHECK: Verify engine oil level and condition — low or dirty oil can prevent VTEC engagement without solenoid failure. REPAIR: Step 1: Locate the VTEC solenoid on the valve cover (a small cylindrical unit with a single bolt and electrical connector, often near the cam sprocket). Step 2: Disconnect the connector and remove the single retaining bolt. Step 3: Pull the solenoid straight out — a small amount of oil will drip. Step 4: Inspect the O-ring on the base — this is a common failure point. Step 5: Clean the mesh screen filter on the base with solvent. Step 6: If the solenoid tests open (no continuity between terminals at room temp), replace it. Step 7: Reinstall and clear codes. Step 8: The VTEC engagement should be felt as a surge past 5,500 RPM after repair.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=VTEC+Solenoid"
+  },
+  {
+    "car": "Honda City",
+    "component": "Hydraulic Valve Lifter",
+    "issue": "Ticking Noise from Engine on Cold Start",
+    "search_summary": "Hydraulic valve lifter tappet ticking tapping noise cold start engine top end noise clatter disappears when warm.",
+    "manual": "DIAGNOSTIC: A rhythmic ticking from the top of the engine that is loudest when cold and quiets within 1–2 minutes of running is typical of hydraulic lifter (tappet) noise. This is caused by oil draining from the lifter after shutdown, leaving it 'collapsed'. Persistent ticking even when hot indicates a worn or stuck lifter. ROOT CAUSE: Low oil level, old/degraded oil, or long oil change intervals are the primary cause. REPAIR: Step 1: Change the engine oil and filter with Honda-genuine 0W-20 or 5W-30 oil (per owner's manual). Step 2: Add an oil system flush product and run at idle for 10 minutes before draining if the oil is very old or sludgy. Step 3: After the oil change, start and run at idle for 5 minutes — most hydraulic lifter noise resolves. Step 4: If the tick persists with fresh oil: the lifter bore may be dirty. Add a lifter cleaning additive to the oil. Step 5: Persistent ticking after 500 km with fresh oil requires removal of the valve cover and inspection of individual lifters for wear or collapse.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Valve+Lifter"
+  },
+  {
+    "car": "Toyota Innova Crysta",
+    "component": "EGR Cooler",
+    "issue": "White Smoke and Coolant Loss in Diesel",
+    "search_summary": "EGR cooler cracked leaking coolant loss white smoke diesel 2GD 2KD engine exhaust gas recirculation cooler failure.",
+    "manual": "DIAGNOSTIC: A cracked EGR cooler allows coolant to enter the EGR passage and then the intake manifold, producing thick white smoke from the exhaust and coolant consumption without visible external leaks. Confirm by checking for a sweet smell from the exhaust and checking oil for a milky appearance (coolant in oil indicates it's reached the combustion chamber). REPAIR: Step 1: Allow the engine to cool completely. Step 2: Drain the cooling system. Step 3: Locate the EGR cooler — on the 2GD-FTV engine, it is mounted between the EGR valve and the exhaust manifold with coolant in/out pipes. Step 4: Disconnect the coolant pipes. Step 5: Remove the EGR cooler bracket bolts and disconnect the EGR gas passages. Step 6: Extract the old cooler. Step 7: Install the new EGR cooler with fresh gaskets. Step 8: Reconnect coolant pipes and tighten clamps. Step 9: Refill the cooling system with Toyota SLLC coolant. Step 10: Bleed cooling system and run the engine monitoring for white smoke and coolant level.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=EGR+Cooler"
+  },
+  {
+    "car": "Toyota Innova Crysta",
+    "component": "Common Rail Diesel Injector",
+    "issue": "Engine Running Rough and Excessive Black Smoke",
+    "search_summary": "Common rail diesel injector rough running excessive black smoke balance issue cylinder contribution misfiring diesel engine.",
+    "manual": "DIAGNOSTIC: Faulty diesel injectors cause rough idle, excessive black smoke, poor fuel economy, and misfires. Use a scan tool to perform a cylinder contribution test — this disables each injector one at a time to find which cylinder is not contributing properly. Also check for injector return flow using a graduated tube test (excessive return flow indicates a worn nozzle). REPAIR: Step 1: Relieve rail pressure by loosening the high-pressure fuel line fitting slightly. Step 2: Disconnect the battery. Step 3: Remove the high-pressure fuel line from the suspect injector. Step 4: Remove the injector electrical connector. Step 5: Remove the injector clamp bolt and use a puller (never a lever). Step 6: Remove the old copper sealing washer from the bore — do not reuse. Step 7: Install the new washer and injector. Step 8: Torque the clamp bolt to 25 Nm. Step 9: Torque the high-pressure line to 25 Nm. Step 10: MANDATORY: Enter the injector calibration code into the ECU using a Toyota Techstream or compatible scan tool.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Diesel+Injector"
+  },
+  {
+    "car": "Toyota Fortuner",
+    "component": "Drive Shaft Universal Joint",
+    "issue": "Vibration at Highway Speeds and Clunking Under Load",
+    "search_summary": "Drive shaft propeller shaft universal joint vibration shudder clunk 4x4 Toyota Fortuner driveline noise.",
+    "manual": "DIAGNOSTIC: Worn U-joints on the Fortuner's front or rear propeller shaft produce vibration through the floor at 80–120 km/h or a clunk when pulling away from a stop in 4WD. Inspect by gripping the shaft and trying to rotate it slightly — any slack at the U-joint yoke confirms wear. Also look for rust or grease loss at the caps. REPLACEMENT: Step 1: Raise the vehicle on a lift. Mark all shaft-to-flange positions before removal. Step 2: Remove the flange bolts at the front (transfer case end) and rear (differential end). Step 3: Slide the slip yoke out of the transfer case to remove the shaft. Step 4: Press out the old U-joint bearing caps with a press or vice-and-socket method. Step 5: Install new U-joints with grease fittings facing out for access. Step 6: Ensure the new snap rings seat fully in the grooves. Step 7: Reinstall the shaft aligned with the original marks. Step 8: Torque flange bolts to 74 Nm. Step 9: Grease the U-joints immediately before the test drive.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Drive+Shaft"
+  },
+  {
+    "car": "Kia Seltos",
+    "component": "Turbocharger Wastegate",
+    "issue": "Boost Surge, Flat Spot and Check Engine Light",
+    "search_summary": "Turbocharger wastegate actuator boost control flat spot surge check engine light P0234 P0299 boost too high low.",
+    "manual": "DIAGNOSTIC: The Kia Seltos 1.4T GDi turbo uses an electronically-controlled wastegate. A faulty wastegate actuator or boost pressure sensor causes codes P0234 (overboost) or P0299 (underboost), a flat spot in the mid-range, or a sudden boost surge. CHECKS: Step 1: Inspect all turbo inlet and intercooler pipes for leaks — a split hose causes underboost. Press-fit them firmly and check all clamp tightness. Step 2: Check the wastegate solenoid — it should click audibly and measure 15–25 ohms across its terminals. Step 3: Check the MAP (Manifold Absolute Pressure) sensor — a faulty MAP sensor causes incorrect boost targets. WASTEGATE ACTUATOR REPLACEMENT: Step 4: With the engine cold, locate the electronic wastegate actuator on the turbine housing. Step 5: Disconnect the actuator rod from the wastegate arm. Step 6: Remove the actuator mounting bracket bolts. Step 7: Install the new actuator and reconnect the rod. Step 8: Calibrate the wastegate position with a scan tool.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Turbo+Wastegate"
+  },
+  {
+    "car": "Kia Seltos",
+    "component": "DCT Clutch Pack",
+    "issue": "Low-Speed Shudder and Hesitation in Traffic",
+    "search_summary": "DCT dual clutch transmission clutch pack shudder vibration judder low speed traffic creeping engagement 7-speed.",
+    "manual": "DIAGNOSTIC: The Seltos 1.4T uses a 7-speed DCT. Low-speed shudder when pulling away from a stop in traffic is common with this gearbox type. A TCU software update from Kia addresses some shudder issues — check with a dealer if the vehicle software is current. Persistent shudder after a software update suggests clutch pack contamination or wear. SERVICE: Step 1: Check the current TCU software version at a Kia service centre and request any available update. Step 2: Drain the DCT fluid through the sump drain plug. Step 3: Refill with Kia-approved DCT fluid (Shell M1375.4 or equivalent) to the correct level. Step 4: Perform a clutch adaption reset using Kia GDS scan tool — do not skip this step. Step 5: Drive slowly in stop-go traffic for 15 minutes to allow the TCU to relearn clutch engagement points. PHYSICAL CLUTCH REPLACEMENT: Requires transmission removal and specialist tools — professional service is strongly recommended.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=DCT+Clutch+Pack"
+  },
+  {
+    "car": "Maruti Suzuki WagonR CNG",
+    "component": "CNG Pressure Regulator",
+    "issue": "Poor Starting and Rough Running on CNG",
+    "search_summary": "CNG compressed natural gas pressure regulator rough running poor starting idle issues switching petrol to CNG factory kit.",
+    "manual": "DIAGNOSTIC: The Maruti WagonR CNG uses a factory bi-fuel system. Common issues: difficulty starting in CNG mode (especially when hot), rough idle on CNG, hesitation under load on CNG, or the system refusing to switch from petrol. CHECKS: Step 1: Check the CNG tank pressure on the gauge — below 60 bar causes starting difficulties. Step 2: Check the CNG filter in the engine bay (replaced every 20,000 km or 1 year). A blocked filter restricts gas flow. Step 3: Check for gas leaks with soapy water at all connections — bubbles indicate a leak. REGULATOR REPLACEMENT: Step 4: Completely vent the CNG system by running the engine in CNG mode until it stalls and switching the CNG supply valve OFF. Step 5: Confirm zero pressure with a gauge before opening any connection. Step 6: Remove the inlet and outlet fittings. Step 7: Remove the coolant hose connections from the regulator (the regulator is heated by coolant to prevent freezing). Step 8: Unbolt the regulator bracket and install the new unit. Step 9: Reconnect all fittings and check for leaks with soapy water before starting.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=CNG+Regulator"
+  },
+  {
+    "car": "Maruti Suzuki Vitara Brezza",
+    "component": "EGR Valve",
+    "issue": "Power Loss, Rough Idle and Diesel Smoke",
+    "search_summary": "EGR valve carbon fouled blocked diesel 1.3 DDiS power loss rough idle excessive smoke check engine light.",
+    "manual": "DIAGNOSTIC: The Brezza 1.3 DDiS uses an EGR system to recirculate exhaust gases back into the intake. Over time, carbon deposits accumulate on the EGR valve pintle and seat, causing it to stick open or closed. Symptoms: rough idle at warm operating temp, black or blue smoke, flat power delivery, codes P0400–P0407. CLEANING: Step 1: Locate the EGR valve on the intake side of the cylinder head. Step 2: Spray penetrating oil around the base of the valve to loosen carbon. Step 3: Remove the connector, pipes, and mounting bolts. Step 4: Soak the valve in EGR cleaner solution for 1 hour. Step 5: Use a fine wire brush to remove all visible carbon from the passages and valve face. Step 6: Actuate the valve by hand to confirm free movement. Step 7: Reinstall with a new gasket. Step 8: Clear fault codes. PREVENTION: Clean the EGR valve every 30,000 km and use quality diesel fuel.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=EGR+Valve"
+  },
+  {
+    "car": "Tata Altroz",
+    "component": "Fuel Pump Module",
+    "issue": "Hard Starting and Low Fuel Pressure",
+    "search_summary": "Fuel pump module in-tank pump fuel pressure hard starting hesitation fuel delivery failure petrol pump.",
+    "manual": "DIAGNOSTIC: The Tata Altroz 1.2L Revotron petrol fuel pump delivers fuel at approximately 3.5 bar. Weak fuel pressure causes hard starting, hesitation at highway speed, and stalling under hard acceleration. Test: Connect a fuel pressure gauge to the test port on the fuel rail — low pressure confirms pump failure. Also check for debris in the fuel strainer at the pump base. REPLACEMENT: Step 1: Depressurise the fuel system by pulling the fuel pump fuse and cranking until the engine stalls. Step 2: Disconnect the battery. Step 3: Remove the rear seat cushion to access the pump module cover. Step 4: Clean the area around the access cover before opening. Step 5: Remove the access cover bolts. Step 6: Disconnect the fuel lines and electrical connector. Step 7: Use a lock-ring spanner to remove the lock ring counter-clockwise. Step 8: Carefully lift the fuel pump module straight up — note the orientation before removal. Step 9: Transfer the fuel level sender and rubber strainer to the new pump module. Step 10: Install in the correct orientation and tighten the lock ring.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Fuel+Pump+Module"
+  },
+  {
+    "car": "Renault Kwid",
+    "component": "Drive Belt",
+    "issue": "Squealing Belt and Accessory Failure",
+    "search_summary": "Drive belt alternator belt squealing slipping worn cracked small car single belt accessories alternator water pump.",
+    "manual": "DIAGNOSTIC: The Renault Kwid 0.8L SCe and 1.0L SCe engines use a single drive belt to run the alternator and other accessories. A squealing belt — particularly at cold start or when the AC is switched on — indicates glazing, cracking, or misalignment. Inspect the belt for shine (glazing), cracks across the ribs, or fraying edges. REPLACEMENT: Step 1: Mark the direction of belt rotation with a paint pen. Step 2: Locate the belt tensioner — on the Kwid, it is typically a fixed-position tensioner with an adjustment bolt rather than a spring tensioner. Step 3: Loosen the pivot bolt and adjustment bolt. Step 4: Push the alternator inward to slack the belt. Step 5: Remove the belt. Step 6: Install the new belt and route it correctly. Step 7: Push the alternator outward to set tension. Step 8: Correct belt tension allows approximately 10–12mm of deflection when pressed firmly at the longest span. Step 9: Tighten the adjustment and pivot bolts. Step 10: Run and check for squealing.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Drive+Belt"
+  },
+  {
+    "car": "MG Hector",
+    "component": "Battery Management System",
+    "issue": "Mild Hybrid System Warning and 48V Battery Issue",
+    "search_summary": "Mild hybrid 48V battery management system BMS warning MHEV system fault MG Hector hybrid system alert.",
+    "manual": "DIAGNOSTIC: The MG Hector BSVI Petrol Smart Plus uses a 48V mild hybrid system (MHEV) with a lithium-ion battery pack. Warning lights relating to the MHEV system (orange or red hybrid warning) can be caused by: battery temperature extremes (common in Indian summer heat above 45°C), a faulty BMS module, or a degraded 48V battery. INITIAL STEPS: Step 1: Park in a cool, shaded area. Step 2: Switch the vehicle off completely and allow to rest for 20 minutes — BMS warnings due to overtemperature often self-clear. Step 3: Restart and check if the warning clears. Step 4: Scan with MG's iSmart-compatible scan tool for BMS-specific codes. BATTERY CARE: Step 5: Avoid parking in direct sunlight for extended periods. Step 6: Use the scheduled service interval — the 48V battery is not user-serviceable and requires dealer replacement if faulty. Step 7: Verify that the conventional 12V battery is healthy — a weak 12V battery stresses the BMS.",
+    "image_url": "https://placehold.co/600x400/1e293b/94a3b8?text=Battery+Management"
+  }
+]
