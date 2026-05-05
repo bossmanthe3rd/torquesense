@@ -3,10 +3,15 @@ import json
 from neo4j import GraphDatabase
 from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
+import logging
 
 load_dotenv()
 
-print("Loading semantic embedding model... (This may take a minute on the first run)")
+# --- LOGGING SETUP ---
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+logger = logging.getLogger(__name__)
+
+logger.info("Loading semantic embedding model... (This may take a minute on the first run)")
 # all-MiniLM-L6-v2 is a dedicated semantic similarity model (384 dims).
 # It handles text-to-text matching far better than CLIP, which is a vision-
 # language model with a 77-token limit — not designed for automotive text search.
@@ -18,14 +23,20 @@ DATA_FILE = "data/manuals.json"
 
 
 def get_text_embedding(text: str):
+    """Generates a 384-dimensional semantic embedding vector for the given text."""
     return model.encode(text).tolist()
 
 
 def delete_all_nodes(tx):
+    """Deletes all existing nodes and relationships in the Neo4j database."""
     tx.run("MATCH (n) DETACH DELETE n")
 
 
 def insert_item(tx, item, vector):
+    """
+    Inserts a single manual entry into the Neo4j graph.
+    Creates Car, Component, and Manual nodes, and sets the embedding vector on the Component.
+    """
     query = """
         MERGE (car:Car {name: $car_name})
         MERGE (comp:Component {name: $comp_name})
@@ -48,24 +59,25 @@ def insert_item(tx, item, vector):
 
 
 def main():
-    print(f"Reading data from {DATA_FILE}...")
+    """Main ingestion script logic."""
+    logger.info(f"Reading data from {DATA_FILE}...")
     try:
         with open(DATA_FILE, "r") as f:
             manuals = json.load(f)
     except FileNotFoundError:
-        print(f"ERROR: {DATA_FILE} not found.")
+        logger.error(f"ERROR: {DATA_FILE} not found.")
         return
 
-    print(f"Found {len(manuals)} entries to ingest.\n")
+    logger.info(f"Found {len(manuals)} entries to ingest.\n")
 
-    print("Connecting to Neo4j...")
+    logger.info("Connecting to Neo4j...")
     with GraphDatabase.driver(URI, auth=AUTH) as driver:
         with driver.session() as session:
 
-            print("Clearing old database entries...")
+            logger.info("Clearing old database entries...")
             session.execute_write(delete_all_nodes)
 
-            print("Dropping and recreating vector index...")
+            logger.info("Dropping and recreating vector index...")
             session.run("DROP INDEX component_embeddings IF EXISTS")
             session.run("""
                 CREATE VECTOR INDEX component_embeddings IF NOT EXISTS
@@ -76,11 +88,11 @@ def main():
                 }}
             """)
 
-            print("Processing and embedding data...\n")
+            logger.info("Processing and embedding data...\n")
             for item in manuals:
                 component = item.get("component", "Unknown")
                 car = item.get("car", "Unknown")
-                print(f"  Ingesting: {car} / {component}")
+                logger.info(f"  Ingesting: {car} / {component}")
                 # Embed component name + search_summary so that direct part-name
                 # queries ("serpentine belt", "CV axle") align strongly with the
                 # stored vector while symptom-only queries still match via the
@@ -90,8 +102,8 @@ def main():
                 vector = get_text_embedding(embed_text)
                 session.execute_write(insert_item, item, vector)
 
-    print(f"\nIngest complete. {len(manuals)} entries ingested.")
-    print("Database is ready for RAG.")
+    logger.info(f"Ingest complete. {len(manuals)} entries ingested.")
+    logger.info("Database is ready for RAG.")
 
 
 if __name__ == "__main__":
