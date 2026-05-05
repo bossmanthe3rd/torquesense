@@ -267,7 +267,7 @@ async def describe_image_for_search(image_bytes: bytes, image_extension: str):
     finally:
         os.remove(tmp_path)
 
-    vision_model = genai.GenerativeModel('gemini-2.5-flash')
+    vision_model = genai.GenerativeModel('gemini-1.5-flash')
     prompt = [
         "You are an automotive diagnostic assistant. Examine this image carefully and describe:\n"
         "1. Which specific car component or part is visible?\n"
@@ -304,7 +304,7 @@ async def transcribe_audio_with_gemini(audio_bytes: bytes, audio_extension: str)
     finally:
         os.remove(tmp_path)
 
-    transcription_model = genai.GenerativeModel('gemini-2.5-flash')
+    transcription_model = genai.GenerativeModel('gemini-1.5-flash')
     prompt = [
         "You are an automotive diagnostic assistant. Listen carefully to this audio recording from a car. "
         "Describe: the exact type of sound you hear (e.g., knocking, squealing, grinding, clicking, rattling, "
@@ -495,7 +495,7 @@ async def diagnose(
             prompt_parts.append(gemini_audio_file)
 
         # 7. Generate the response — run in executor to avoid blocking the event loop.
-        gemini_model = genai.GenerativeModel('gemini-2.5-flash')
+        gemini_model = genai.GenerativeModel('gemini-1.5-flash')
         chat = gemini_model.start_chat(history=history)
         response = await asyncio.wait_for(
             loop.run_in_executor(None, lambda: chat.send_message(prompt_parts)),
