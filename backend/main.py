@@ -62,6 +62,18 @@ except Exception:
 print(f"Loaded {len(KNOWN_CARS)} known car models for RAG matching.")
 
 
+async def _cleanup_temp_file(path: str, retries: int = 5, delay: float = 0.2) -> None:
+    # Retry cleanup in the background to avoid Windows file locks.
+    for attempt in range(retries):
+        try:
+            os.remove(path)
+            return
+        except OSError:
+            if attempt == retries - 1:
+                return
+            await asyncio.sleep(delay * (2 ** attempt))
+
+
 def extract_car_from_text(user_text: str) -> Optional[str]:
     """
     Returns the best-matching known car name using distinctive-word scoring.
@@ -260,7 +272,7 @@ async def describe_image_for_search(image_bytes: bytes, image_extension: str):
             timeout=GEMINI_TIMEOUT,
         )
     finally:
-        os.remove(tmp_path)
+        loop.create_task(_cleanup_temp_file(tmp_path))
 
     vision_model = genai.GenerativeModel('gemini-2.5-flash')
     prompt = [
@@ -297,7 +309,7 @@ async def transcribe_audio_with_gemini(audio_bytes: bytes, audio_extension: str)
             timeout=GEMINI_TIMEOUT,
         )
     finally:
-        os.remove(tmp_path)
+        loop.create_task(_cleanup_temp_file(tmp_path))
 
     transcription_model = genai.GenerativeModel('gemini-2.5-flash')
     prompt = [
