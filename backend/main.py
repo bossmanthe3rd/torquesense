@@ -11,8 +11,13 @@ import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 import google.generativeai as genai
 from dotenv import load_dotenv
+import logging
 
 load_dotenv()
+
+# --- LOGGING SETUP ---
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+logger = logging.getLogger(__name__)
 
 # --- CONFIGURATION ---
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
@@ -39,7 +44,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-print("Loading semantic embedding model (all-MiniLM-L6-v2)...")
+logger.info("Loading semantic embedding model (all-MiniLM-L6-v2)...")
 # Dedicated semantic similarity model — 384 dims, no token-limit issues.
 # Replaces CLIP which was a vision model with a 77-token cap, causing all
 # text queries to collapse to the same embedding ('Renault Kwid Drive Belt').
@@ -59,7 +64,7 @@ try:
     )
 except Exception:
     KNOWN_CARS = []
-print(f"Loaded {len(KNOWN_CARS)} known car models for RAG matching.")
+logger.info(f"Loaded {len(KNOWN_CARS)} known car models for RAG matching.")
 
 
 def extract_car_from_text(user_text: str) -> Optional[str]:
@@ -317,6 +322,9 @@ async def transcribe_audio_with_gemini(audio_bytes: bytes, audio_extension: str)
 
 @app.get("/health")
 def health_check():
+    """
+    Simple health check endpoint to verify database connectivity.
+    """
     try:
         with _driver.session() as session:
             session.run("RETURN 1")
@@ -327,6 +335,9 @@ def health_check():
 
 @app.get("/graph-data")
 def get_graph_data(component: Optional[str] = None):
+    """
+    Retrieves knowledge graph data from Neo4j for visualization on the frontend.
+    """
     return get_graph_data_from_db(component)
 
 
@@ -337,6 +348,11 @@ async def diagnose(
     text_issue: Optional[str] = Form(None),
     chat_history: Optional[str] = Form("[]")
 ):
+    """
+    Main diagnostic endpoint.
+    Orchestrates the multimodal inputs (image, audio, text), queries the Gemini models,
+    performs semantic search on Neo4j for relevant repair manuals, and returns the response.
+    """
     # Parse chat history before the main try block so malformed JSON gets a proper 400.
     try:
         history = json.loads(chat_history)
@@ -369,6 +385,7 @@ async def diagnose(
 
         if image_bytes:
             img_ext = os.path.splitext(image.filename)[1] or ".jpg"
+            logger.info(f"Processing image upload: {image.filename}")
             image_description, gemini_img_file = await describe_image_for_search(image_bytes, img_ext)
 
         # 3. Process audio: upload to Gemini, transcribe for vector search,
@@ -378,6 +395,7 @@ async def diagnose(
 
         if audio_bytes:
             aud_ext = os.path.splitext(audio.filename)[1] or ".mp3"
+            logger.info(f"Processing audio upload: {audio.filename}")
             audio_transcript, gemini_audio_file = await transcribe_audio_with_gemini(audio_bytes, aud_ext)
 
         # 4. Database search — only runs on the first turn of a conversation
