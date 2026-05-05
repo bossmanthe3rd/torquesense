@@ -42,6 +42,10 @@ function App() {
   const [hasConversationGraph, setHasConversationGraph] = useState(false);
 
   const chatEndRef = useRef(null);
+  const imageInputRef = useRef(null);
+  const audioInputRef = useRef(null);
+  const trimmedTextIssue = textIssue.trim();
+  const hasPendingInput = Boolean(image || audio || trimmedTextIssue);
 
   const resetConversation = () => {
     setMessages([]);
@@ -53,6 +57,8 @@ function App() {
     setGraphData({ nodes: [], links: [] });
     setHasConversationGraph(false);
     setView("chat");
+    if (imageInputRef.current) imageInputRef.current.value = "";
+    if (audioInputRef.current) audioInputRef.current.value = "";
   };
 
   useEffect(() => {
@@ -63,7 +69,8 @@ function App() {
     // Only fetch the full DB graph when no conversation-specific subgraph is active
     if (view === "graph" && !hasConversationGraph) {
       setGraphError(null);
-      fetch(`${API_URL}/graph-data`)
+      const controller = new AbortController();
+      fetch(`${API_URL}/graph-data`, { signal: controller.signal })
         .then(res => res.json())
         .then(data => {
           if (data.error) {
@@ -72,7 +79,13 @@ function App() {
             setGraphData(data);
           }
         })
-        .catch(err => setGraphError(`Could not reach the server: ${err.message}`));
+        .catch(err => {
+          if (err.name !== "AbortError") {
+            setGraphError(`Could not reach the server: ${err.message}`);
+          }
+        });
+
+      return () => controller.abort();
     }
   }, [view, hasConversationGraph]);
 
@@ -80,8 +93,12 @@ function App() {
     e.preventDefault();
 
     // Audio is now a valid standalone input — validate all three
-    if (!image && !audio && !textIssue && messages.length === 0) {
-      setError("Please provide an image, audio recording, or text description to start the diagnostic.");
+    if (!hasPendingInput) {
+      setError(
+        messages.length === 0
+          ? "Please provide an image, audio recording, or text description to start the diagnostic."
+          : "Add a follow-up question, image, or audio clip before sending."
+      );
       return;
     }
 
@@ -90,7 +107,7 @@ function App() {
 
     // Show all submitted inputs in the chat bubble, not just the first one.
     const parts = [];
-    if (textIssue) parts.push(textIssue);
+    if (trimmedTextIssue) parts.push(trimmedTextIssue);
     if (image) parts.push(`[Image: ${image.name}]`);
     if (audio) parts.push(`[Audio: ${audio.name}]`);
     const userDisplayMsg = parts.join("  ");
@@ -106,12 +123,14 @@ function App() {
     const formData = new FormData();
     if (image) formData.append("image", image);
     if (audio) formData.append("audio", audio);
-    if (textIssue) formData.append("text_issue", textIssue);
+    if (trimmedTextIssue) formData.append("text_issue", trimmedTextIssue);
     formData.append("chat_history", JSON.stringify(geminiHistory));
 
     setTextIssue("");
     setImage(null);
     setAudio(null);
+    if (imageInputRef.current) imageInputRef.current.value = "";
+    if (audioInputRef.current) audioInputRef.current.value = "";
 
     try {
       const response = await fetch(`${API_URL}/diagnose`, {
@@ -291,6 +310,7 @@ function App() {
                 <div className="flex-1">
                   <label className="block text-gray-500 mb-1 font-medium text-[11px]">Image</label>
                   <input
+                    ref={imageInputRef}
                     type="file"
                     accept="image/*"
                     onChange={e => setImage(e.target.files[0])}
@@ -300,6 +320,7 @@ function App() {
                 <div className="flex-1">
                   <label className="block text-gray-500 mb-1 font-medium text-[11px]">Audio</label>
                   <input
+                    ref={audioInputRef}
                     type="file"
                     accept="audio/*"
                     onChange={e => setAudio(e.target.files[0])}
@@ -318,7 +339,7 @@ function App() {
                 />
                 <button
                   type="submit"
-                  disabled={loading}
+                  disabled={loading || !hasPendingInput}
                   className="btn-primary-pill text-sm flex-shrink-0"
                 >
                   Send

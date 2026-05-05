@@ -67,6 +67,11 @@ except Exception:
 logger.info(f"Loaded {len(KNOWN_CARS)} known car models for RAG matching.")
 
 
+@app.on_event("shutdown")
+def shutdown_driver():
+    _driver.close()
+
+
 async def _cleanup_temp_file(path: str, retries: int = 5, delay: float = 0.2) -> None:
     # Retry cleanup in the background to avoid Windows file locks.
     for attempt in range(retries):
@@ -370,9 +375,14 @@ async def diagnose(
         history = json.loads(chat_history)
     except json.JSONDecodeError:
         raise HTTPException(status_code=400, detail="Invalid chat_history: must be a valid JSON array.")
+    if not isinstance(history, list):
+        raise HTTPException(status_code=400, detail="Invalid chat_history: must be a JSON array.")
+    if any(not isinstance(item, dict) for item in history):
+        raise HTTPException(status_code=400, detail="Invalid chat_history: each item must be an object.")
 
     try:
         loop = asyncio.get_running_loop()
+        text_issue = text_issue.strip() if text_issue else None
 
         # 1. Read file bytes immediately
         image_bytes = await image.read() if image else None
