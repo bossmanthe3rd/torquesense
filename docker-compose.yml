@@ -32,11 +32,11 @@ services:
   # 3. The React Frontend
   frontend:
     build: ./frontend
+    command: sh -c "npm install && npm run dev"
     ports:
       - "5173:5173"
     volumes:
       - ./frontend:/app
-      - /app/node_modules # Prevents local node_modules from overwriting the container's
     environment:
       - VITE_API_URL=http://localhost:8000
       - CHOKIDAR_USEPOLLING=true # Helps React hot-reload work inside Docker
